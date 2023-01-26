@@ -10,4 +10,9 @@ public class SquareApiController {
     public int square(int n) {
         return n * n;
     }
+
+    @GetMapping("api/number")
+    public int getNumber(int n) {
+        return n;
+    }
 }
